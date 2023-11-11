@@ -1,1 +1,93 @@
+body {
+  font-size: 18px;
+  color: black;
+  background-color: lightgray;
+  font-family: 'Bebas Neue', sans-serif;
+}
 
+h3 {
+	font-size: 1.2em;
+}
+
+
+ 
+ /** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 1px solid black;
+  padding-bottom: 25px;
+}
+
+.navbar-header {
+	padding-bottom: 10px;
+}
+
+.navbar-brand {
+  padding-top: 35px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Bebas Neue', sans-serif;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-collapse {
+	text-align: center;
+
+}
+
+#main-body > .text-center {
+	font-size: 2em;
+	font-weight: bold;
+
+}
+
+#main-body > .text-center > .row {
+	font-size: 1em;
+	font-weight: initial;
+	margin:15px;
+}
+#main-body > .text-center > .row > .col {
+	background-color: darkgray;
+	margin-bottom: 40px;
+
+}
+#main-body > .text-center > .row > .col > p {
+	font-size: .7em;
+}
+
+#nav-list a {
+	color: black;
+}
+
+#nav-list a:hover {
+	background: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+.navbar-toggle {
+	margin-top: 25px;
+}
+
+#a1 a {
+	color: black;
+}
+#a2 a {
+	color: black;
+}
+#a3 a {
+	color: black;
+}
